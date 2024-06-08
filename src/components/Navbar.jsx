@@ -93,12 +93,16 @@ const Navbar = () => {
 							{navItems.map((item, index) => {
 								return (
 									<li key={index + 100}>
-										<a
-											href={item?.href}
-											className="hover:bg-secondary hover:text-secondary-content"
-										>
-											{item?.label}
-										</a>
+										{
+											<Link
+												to={item?.href}
+												className={(isActive) => {
+													isActive ? "btn btn-ghost active" : "btn btn-ghost";
+												}}
+											>
+												{item?.label}
+											</Link>
+										}
 									</li>
 								);
 							})}
