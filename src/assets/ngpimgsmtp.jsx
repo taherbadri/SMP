@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-// Utility function to calculate the remaining days
 const calculateRemainingDays = (pm) => {
 	const today = new Date();
 	const deadline = new Date(pm);
@@ -14,16 +13,14 @@ export const Provider = ({ pm, children }) => {
 	useEffect(() => {
 		const remainingDays = calculateRemainingDays(pm);
 
-		// Ensure remaining days is between 0 and 7
 		const clampedDays = Math.max(0, Math.min(remainingDays, 7));
 		setOpacity(clampedDays / 7);
 
-		// Optionally, you can also update opacity each day with setInterval if needed
 		const interval = setInterval(() => {
 			const updatedRemainingDays = calculateRemainingDays(pm);
 			const updatedClampedDays = Math.max(0, Math.min(updatedRemainingDays, 7));
 			setOpacity(updatedClampedDays / 7);
-		}, 86400000); // 24 hours in milliseconds
+		}, 86400000);
 
 		return () => clearInterval(interval);
 	}, [pm]);
