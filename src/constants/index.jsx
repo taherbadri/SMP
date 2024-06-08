@@ -55,7 +55,7 @@ export const founders = [
 export const ourWork = [
 	{
 		video: mountain,
-		description: "Mountains Reflection In Pristine Moraine Lake",
+		description: "Crashing waves",
 	},
 
 	{
@@ -64,7 +64,7 @@ export const ourWork = [
 	},
 	{
 		video: sunsetBeach,
-		description: "A Pink Sunset Over the Atlantic Ocean in Sintra, Portugal",
+		description: "Atlantic Ocean, Sintra, Portugal",
 	},
 
 	{
@@ -77,7 +77,7 @@ export const ourWork = [
 	},
 	{
 		video: road,
-		description: "Cars on Bridge",
+		description: "Switzerland on a Mid-day",
 	},
 ];
 
