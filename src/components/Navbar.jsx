@@ -46,9 +46,7 @@ const Navbar = () => {
 									{
 										<Link
 											to={item?.href}
-											className={(isActive) => {
-												isActive ? "btn btn-ghost active" : "btn btn-ghost";
-											}}
+											className="hover:bg-secondary hover:text-secondary-content"
 										>
 											{item?.label}
 										</Link>
