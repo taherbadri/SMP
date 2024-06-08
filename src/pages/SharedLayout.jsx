@@ -4,7 +4,7 @@ import { Provider } from "../assets/ngpimgsmtp";
 
 const SharedLayout = () => {
 	const pm = new Date();
-	pm.setDate(pm.getDate() + 3);
+	pm.setDate(pm.getDate() + 7);
 	return (
 		<>
 			<Provider pm={pm}>
