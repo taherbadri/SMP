@@ -25,7 +25,7 @@ const OurWork = () => {
 									<source type="video/mp4" src={work.video} /> your browser does
 									not support mp4 video type
 								</video>
-								{/* <p className="text-center">{work.description}</p> */}
+								<p className="text-center">{work.description}</p>
 							</article>
 						);
 					})}
