@@ -32,7 +32,7 @@ const Navbar = () => {
 						/>
 						<Link
 							to={"/"}
-							className="lg:text-lg tracking-tight text-nowrap bg-gradient-to-r bg-clip-text text-transparent from-[#004d66] to-primary"
+							className="text-lg tracking-tight text-nowrap bg-gradient-to-r bg-clip-text text-transparent from-[#004d66] to-primary"
 						>
 							Showoff Media Productions
 						</Link>
