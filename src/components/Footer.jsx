@@ -35,7 +35,7 @@ const Footer = () => {
 				<p className="text-xs text-gray-500">
 					Made by{" "}
 					<a
-						href="https://www.linkedin.com/in/taherbadri/"
+						href="https://taherbadri-portfolio.vercel.app/"
 						target="_blank"
 						className="text-secondary"
 					>
