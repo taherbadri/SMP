@@ -28,21 +28,16 @@ const Footer = () => {
 			<aside>
 				<p>
 					Copyright © {new Date().getFullYear()} - All rights reserved by
-					Showoff Media Production
-				</p>
-			</aside>
-			<article>
-				<p className="text-xs text-gray-500">
-					Made by{" "}
+					Showoff Media Production - Site by:{" "}
 					<a
 						href="https://taherbadri-portfolio.vercel.app/"
 						target="_blank"
 						className="text-secondary"
 					>
-						Taher Badri
+						Tab
 					</a>
 				</p>
-			</article>
+			</aside>
 		</footer>
 	);
 };
